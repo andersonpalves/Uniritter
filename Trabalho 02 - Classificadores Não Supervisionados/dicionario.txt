@@ -1,38 +1,40 @@
 
 Informações sobre atributos:
 
-instr: identificador do instrutor; valores retirados de {1,2,3}
-aula: código do curso (descritor); valores obtidos de {1-13}
-repita: número de vezes que o aluno está fazendo este curso; valores retirados de {0,1,2,3, ...}
-presença: código do nível de presença; valores de {0, 1, 2, 3, 4}
-Dificuldade: Nível de dificuldade do curso percebido pelo aluno; valores retirados de {1,2,3,4,5}
-Q1: O conteúdo do curso do semestre, o método de ensino e o sistema de avaliação foram fornecidos no início.
-Q2: As metas e objetivos do curso foram claramente estabelecidos no início do período.
-Q3: O curso valia a quantidade de crédito atribuída a ele.
-Q4: O curso foi ministrado de acordo com o programa anunciado no primeiro dia de aula.
-Q5: As discussões em classe, tarefas de casa, aplicações e estudos foram satisfatórios.
-P6: Os recursos do livro didático e de outros cursos foram suficientes e atualizados.
-P7: O curso permitiu trabalhos de campo, aplicações, laboratório, discussão e outros estudos.
-Q8: Os questionários, tarefas, projetos e exames contribuíram para ajudar o aprendizado.
-P9: Gostei muito da aula e estava ansioso para participar ativamente durante as palestras.
-Q10: Minhas expectativas iniciais sobre o curso foram atendidas no final do período ou do ano.
-Q11: O curso foi relevante e benéfico para o meu desenvolvimento profissional.
-P12: O curso me ajudou a olhar a vida e o mundo com uma nova perspectiva.
-Q13: O conhecimento do instrutor era relevante e atualizado.
-Q14: O instrutor veio preparado para as aulas.
-Q15: O instrutor ensinou de acordo com o plano de aula anunciado.
-Q16: O instrutor estava comprometido com o curso e era compreensível.
-P17: O instrutor chegou a tempo para as aulas.
-Q18: O instrutor tem uma entrega / fala suave e fácil de acompanhar.
-P19: O instrutor fez uso eficaz do horário de aula.
-Q20: O instrutor explicou o curso e estava ansioso por ajudar os alunos.
-Q21: O instrutor demonstrou uma abordagem positiva para os alunos.
-Q22: O instrutor foi aberto e respeitava as opiniões dos alunos sobre o curso.
-Q23: O instrutor incentivou a participação no curso.
-Q24: O instrutor atribuiu tarefas / projetos de lição de casa relevantes e ajudou / guiou os alunos.
-Q25: O instrutor respondeu a perguntas sobre o curso dentro e fora do curso.
-Q26: O sistema de avaliação do instrutor (perguntas intermediárias e finais, projetos, tarefas etc.) mediu efetivamente os objetivos do curso.
-Q27: O instrutor forneceu soluções para os exames e discutiu-os com os alunos.
-Q28: O instrutor tratou todos os alunos de maneira correta e objetiva.
+instr: 			[Info] - identificador do instrutor; valores retirados de {1,2,3}
+aula: 			[Info] - código do curso (descritor); valores obtidos de {1-13}
+repita: 		[Info] - número de vezes que o aluno está fazendo este curso; valores retirados de {0,1,2,3, ...}
+presença: 		[Info] - código do nível de presença; valores de {0, 1, 2, 3, 4}
+Dificuldade: 	[Info] - Nível de dificuldade do curso percebido pelo aluno; valores retirados de {1,2,3,4,5}
+
+Q1:  [Curso] - O conteúdo do curso do semestre, o método de ensino e o sistema de avaliação foram fornecidos no início.
+Q2:  [Curso] - As metas e objetivos do curso foram claramente estabelecidos no início do período.
+Q3:  [Curso] - O curso valia a quantidade de crédito atribuída a ele.
+Q4:  [Curso] - O curso foi ministrado de acordo com o programa anunciado no primeiro dia de aula.
+Q5:  [Curso] - As discussões em classe, tarefas de casa, aplicações e estudos foram satisfatórios.
+Q6:  [Curso] - Os recursos do livro didático e de outros cursos foram suficientes e atualizados.
+Q7:  [Curso] - O curso permitiu trabalhos de campo, aplicações, laboratório, discussão e outros estudos.
+Q8:  [Curso] - Os questionários, tarefas, projetos e exames contribuíram para ajudar o aprendizado.
+Q9:  [Curso] - Gostei muito da aula e estava ansioso para participar ativamente durante as palestras.
+Q10: [Curso] - Minhas expectativas iniciais sobre o curso foram atendidas no final do período ou do ano.
+Q11: [Curso] - O curso foi relevante e benéfico para o meu desenvolvimento profissional.
+Q12: [Curso] - O curso me ajudou a olhar a vida e o mundo com uma nova perspectiva.
+
+Q13: [Instrutor] - O conhecimento do instrutor era relevante e atualizado.
+Q14: [Instrutor] - O instrutor veio preparado para as aulas.
+Q15: [Instrutor] - O instrutor ensinou de acordo com o plano de aula anunciado.
+Q16: [Instrutor] - O instrutor estava comprometido com o curso e era compreensível.
+Q17: [Instrutor] - O instrutor chegou a tempo para as aulas.
+Q18: [Instrutor] - O instrutor tem uma entrega / fala suave e fácil de acompanhar.
+Q19: [Instrutor] - O instrutor fez uso eficaz do horário de aula.
+Q20: [Instrutor] - O instrutor explicou o curso e estava ansioso por ajudar os alunos.
+Q21: [Instrutor] - O instrutor demonstrou uma abordagem positiva para os alunos.
+Q22: [Instrutor] - O instrutor foi aberto e respeitava as opiniões dos alunos sobre o curso.
+Q23: [Instrutor] - O instrutor incentivou a participação no curso.
+Q24: [Instrutor] - O instrutor atribuiu tarefas / projetos de lição de casa relevantes e ajudou / guiou os alunos.
+Q25: [Instrutor] - O instrutor respondeu a perguntas sobre o curso dentro e fora do curso.
+Q26: [Instrutor] - O sistema de avaliação do instrutor (perguntas intermediárias e finais, projetos, tarefas etc.) mediu efetivamente os objetivos do curso.
+Q27: [Instrutor] - O instrutor forneceu soluções para os exames e discutiu-os com os alunos.
+Q28: [Instrutor] - O instrutor tratou todos os alunos de maneira correta e objetiva.
 
 Q1-Q28 são todos do tipo Likert, o que significa que os valores são obtidos de {1,2,3,4,5}
